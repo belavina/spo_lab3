@@ -10,10 +10,9 @@ _start:
 
 loop:
     /* ... body of the loop ... do something useful here ... */
-    mov    $48, %r11 /*  init to 0 in ASCII */
-    mov    $0 , %rdx
-    
-    mov    %r11b,fd
+    mov    $48, %r10 /*  init to 0 in ASCII */
+
+    mov    %r10b,fd
     
 
     /*  Print Message to the stdout  */
